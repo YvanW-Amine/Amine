@@ -1,4 +1,3 @@
-https://github.com/tickstep/aliyunpan/releases/download/v0.2.6/aliyunpan-v0.2.6-linux-amd64.zip
 cd aliyunpan-v0.2.6-linux-amd64
 ./aliyunpan login
 59bc649b0f8a4338ad19b3ebbb10959e

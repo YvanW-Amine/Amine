@@ -7,24 +7,27 @@ zip -r x.zip x
 
 unzip aliyunpan-v0.2.6-linux-amd64.zip
 
-1、把/home目录下面的mydata目录压缩为mydata.zip
+把/home目录下面的mydata目录压缩为mydata.zip
 
 cd /home    #进入/home目录
 
-zip -r mydata.zip mydata    #压缩mydata目录
-2、把/home目录下面的mydata.zip解压到mydatabak目录里面
-unzip mydata.zip -d mydatabak
-3、把/home目录下面的abc文件夹和123.txt压缩成为abc123.zip
-zip -r abc123.zip abc 123.txt
-4、把/home目录下面的wwwroot.zip直接解压到/home目录里面
+把/home目录下面的wwwroot.zip直接解压到/home目录里面
+
 nzip wwwroot.zip
-5、把/home目录下面的abc12.zip、abc23.zip、abc34.zip同时解压到/home目录里面
+
+把/home目录下面的abc12.zip、abc23.zip、abc34.zip同时解压到/home目录里面
+
 unzip abc\*.zip
-6、查看把/home目录下面的wwwroot.zip里面的内容
+
+查看把/home目录下面的wwwroot.zip里面的内容
+
 unzip -v wwwroot.zip
-7、验证/home目录下面的wwwroot.zip是否完整
+
+验证/home目录下面的wwwroot.zip是否完整
+
 unzip -t wwwroot.zip
-8、把/home目录下面wwwroot.zip里面的所有文件解压到第一级目录
+
+把/home目录下面wwwroot.zip里面的所有文件解压到第一级目录
 unzip -j wwwroot.zip
 
 aria2c

@@ -4,9 +4,13 @@ cd aliyunpan-v0.2.6-linux-amd64
 upload  /影视
 
 zip -r x.zip x
+
 unzip aliyunpan-v0.2.6-linux-amd64.zip
+
 1、把/home目录下面的mydata目录压缩为mydata.zip
+
 cd /home    #进入/home目录
+
 zip -r mydata.zip mydata    #压缩mydata目录
 2、把/home目录下面的mydata.zip解压到mydatabak目录里面
 unzip mydata.zip -d mydatabak

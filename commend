@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt install aria2
 下载
 aria2c --conf-path="/workspaces/Amine/.aria2/aria2.conf" 1.torrent
-aria2c --conf-path="/workspaces/Amine/.aria2/aria2.conf" --select-file=1-40 1.torrent
+aria2c --conf-path="/workspaces/Amine/.aria2/aria2.conf" --select-file=41-484 1.torrent
 1、直链下载
 下载直链文件，只需在命令后附加地址，如：
 aria2c http://xx.com/xx
@@ -23,25 +23,11 @@ aria2c -S 1.torrent
 下载种子内编号为1、4、5、6、7的文件，如：
 aria2c --select-file=1-40 1.torrent
 
+unzip aliyunpan-v0.2.6-linux-amd64.zip
 cd aliyunpan-v0.2.7-linux-amd64
 ./aliyunpan login
 e0019915e49646cfbd99e0d491748ef1
 ./aliyunpan upload /workspaces/Amine/Server_upload /影视
-
-zip -r x.zip x
-unzip aliyunpan-v0.2.6-linux-amd64.zip
-把/home目录下面的mydata目录压缩为mydata.zip
-cd /home    #进入/home目录
-把/home目录下面的wwwroot.zip直接解压到/home目录里面
-nzip wwwroot.zip
-把/home目录下面的abc12.zip、abc23.zip、abc34.zip同时解压到/home目录里面
-unzip abc\*.zip
-查看把/home目录下面的wwwroot.zip里面的内容
-unzip -v wwwroot.zip
-验证/home目录下面的wwwroot.zip是否完整
-unzip -t wwwroot.zip
-把/home目录下面wwwroot.zip里面的所有文件解压到第一级目录
-unzip -j wwwroot.zip
 
 使用 删除不再使用的包。
 sudo apt autoremove
